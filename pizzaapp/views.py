@@ -63,7 +63,7 @@ def signupuser(request):
 def userloginview(request):
 	return render(request,"pizzaapp/userlogin.html")
 
-def authenticate(request):
+def userauthenticate(request):
 	username = request.POST['username']
 	password = request.POST['password']
 
